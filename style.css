@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "ACWW";
+    src: url("IngameFont.ttf");
+}
+
+body {
+    background-image: url("images/background.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: "ACWW";
+    font-size: larger;
+    text-rendering:auto;
+    image-rendering: pixelated;
+}
+
+.main {
+    margin: auto;
+    width: fit-content;
+    display: grid;
+}
+
+
+header {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+   
+}
+header img {
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+li {
+    list-style:none;
+    position: relative;
+    right: 10px;
+
+}
+
+
+
+
+.container {
+    display: flex;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    background-image: url("images/mainbubble.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: medium;
+}
+
+
+.twitchbanner img{
+    position: relative;
+    top: 20px;
+    left: 200px;
+    
+}
+
+.me img{
+    width: 80px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+
+
+.nav {
+    position: relative;
+    right: 50px;
+    background-image: url("images/letter.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.bla {
+    flex-grow: 1;
+}
+footer {
+    margin: auto;
+    display: flex;
+    background-image: url("images/back.png");
+
+    border-radius: 5px;
+    border:solid 2px;  
+    margin-top: 50px;
+    padding: 2px;
+    padding-left: 10px;
+    align-items: center;
+    width: 100%;
+    
+}
+footer img {
+    height: 30px;
+    margin-left: 5px;
+    
+}
+
+footer a {
+    color: aliceblue;
+}
+
+.updates {
+    position: relative;
+    left: 50px;
+    position: relative;
+    background-image: url("images/letter.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+
+
+.twitch {
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    right: 50px;
+}
+
+.twitch img {
+    position:relative;
+    width: 128px;
+    bottom: 40px;
+    left: 75px;
+    height: 140px;
+}
